@@ -197,3 +197,9 @@ def main():
  # Prediction using entropy
  y_pred_entropy = prediction(X_test, clf_entropy)
  cal_accuracy(y_test, y_pred_entropy)
+ 
+ # In[21]:
+ 
+ 
+ if __name__=="__main__":
+ main()
